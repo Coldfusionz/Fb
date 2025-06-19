@@ -1100,7 +1100,7 @@ def login4(uid):
         # Get the path to the current script's directory
         script_dir = os.path.dirname(os.path.abspath(__file__))
         file_path = os.path.join(script_dir, "DARKSIDE-OK.txt")
-        for pw in ["123456", "1234567", "12345678", "123456789", "111222", "qwerty"]:
+        for pw in ["123456"]:
             data = {
                 'adid': str(uuid.uuid4()),
                 'format': 'json',
